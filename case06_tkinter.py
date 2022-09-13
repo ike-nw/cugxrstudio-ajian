@@ -50,9 +50,9 @@ def start_rec():
 
 
 # """ 你的 APPID AK SK """
-APP_ID = '27436904'
-API_KEY = 'PNUW5MkphnjZWAA0YUS8dBBB'
-SECRET_KEY = 'c39llU3bHBky0VfXA7bqGa73Mdwx6yFC'
+APP_ID = '********'
+API_KEY = '********'
+SECRET_KEY = '********'
 
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
