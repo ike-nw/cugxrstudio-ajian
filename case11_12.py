@@ -17,9 +17,9 @@ import base64
 
 # -- 配置百度AI --
 # 你的 APPID AK SK
-APP_ID = "27462740"
-API_KEY = "14YSKWAtBiNb6MasLUR6PR0e"
-SECRET_KEY = "Gddb0KsYXuO3PayQdStnBApy5jAtcn8q"
+APP_ID = "****"
+API_KEY = "****"
+SECRET_KEY = "****"
 
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
@@ -99,7 +99,7 @@ def id_card(path):
     img = base64.b64encode(f.read())
 
     params = {"id_card_side": "front", "image": img}
-    access_token = '[24.d4f72a8b30461a55ce4e4c705b15f8c1.2592000.1665763775.282335-27462740]'
+    access_token = '[****]'
     request_url = request_url + "?access_token=" + access_token
     headers = {'content-type': 'application/x-www-form-urlencoded'}
     response = requests.post(request_url, data=params, headers=headers)
