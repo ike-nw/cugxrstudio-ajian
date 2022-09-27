@@ -109,7 +109,6 @@ keys.addEventListener('click', e => {
                     // OPTIMIZE THE RESULT FOR DISPLAYING
                     const resultLength = finalResult.toString().length;
                     if (resultLength <= 9) { // normally display
-                        console.log('normally display');
                         display.textContent = finalResult;
                     }
                     else if (finalResult <= 99999999) { // optimize mantissa
@@ -122,7 +121,6 @@ keys.addEventListener('click', e => {
                         else if (finalResult >= 1000000 && finalResult < 10000000 || finalResult <= -1000000 && finalResult > -10000000) display.textContent = finalResult.toFixed(2);
                         else if (finalResult >= 10000000 && finalResult < 100000000 || finalResult <= -10000000 && finalResult > -100000000) display.textContent = finalResult.toFixed(1);
                     } else { // convert big numbers to scientific notation
-                        console.log('scientific notation');
                         finalResult = finalResult.toExponential().toString();
                         let approxResult = finalResult.split('e');
                         const _n1 = approxResult.shift();
