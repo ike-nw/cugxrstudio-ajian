@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Neumorphism Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <script src="calculator_pub.js" async></script>
+    <!-- <script src="test.js" async></script> -->
+</head>
+
+<body>
+    <section>
+        <div class="textBlock">
+            <div class="textContent">
+                <h1>Neumorphism Calculator</h1>
+                <p>This Soft UI style web calculator is designed and developed by <a href="#" target="_blank">ajian</a>.
+                </p>
+                <p>The font used in this page:</p>
+                <ul>
+                    <li><a href="//www.tinkov.info/gilroy.html" target="_blank">Gilroy</a></li>
+                </ul>
+                <p>It is a programming exercise, <a href="#" target="_blank">original code here</a>.</p>
+                <p>Commercial use is prohibited.</p>
+            </div>
+            <div class="qrcode">
+                <img src="url-qr-code.png" alt="QR Code links to this calculator">
+            </div>
+        </div>
+        <div class="cal">
+            <div class="displayBox">
+                <div class="displayHistory">
+                    <div class="historyText"></div>
+                </div>
+                <div class="display">0</div>
+            </div>
+            <div class="buttons">
+                <div class="btnBox">
+                    <div class="btn" data-action="clearAll">AC</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" data-action="clearEntry">C</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" data-action="oppositeNum">±</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn operator-key" data-action="÷">÷</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="7">7</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="8">8</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="9">9</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn operator-key" data-action="×">&times;</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="4">4</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="5">5</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="6">6</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn operator-key" data-action="-">-</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="1">1</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="2">2</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" id="3">3</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn operator-key" data-action="+">+</div>
+                </div>
+                <div class="btnBox zero">
+                    <div class="btn zero" id="0">0</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn" data-action="decimal">.</div>
+                </div>
+                <div class="btnBox">
+                    <div class="btn equal-key" data-action="calculate">=</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
