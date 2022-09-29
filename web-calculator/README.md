@@ -9,3 +9,10 @@
 👀键盘输入时，按下的效果不能展现  
 🔢大数处理的方式还有改进空间  
 📱手机分辨率下，按键有点小，不太好按  
+
+# Features
+Optimized big numbers display:  
+When the number is larger than 99,999,999 it will be displayed exponentially  
+  
+  Keyboard input:
+  
